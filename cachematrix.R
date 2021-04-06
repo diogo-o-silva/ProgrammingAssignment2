@@ -3,7 +3,7 @@
 
 ## Write a short comment describing this function
 
-a<- matrix(c(2,3,4,4),2,2)
+# Here I created a function for matrix that cache its inverse
 
 makeCacheMatrix <- function(x = matrix()) {
   m <- NULL
@@ -22,6 +22,7 @@ makeCacheMatrix <- function(x = matrix()) {
 
 
 ## Write a short comment describing this function
+# Here, I verefied if matrix already have a inverve on cache, and then calculate if necessary
 
 cacheSolve <- function(x, ...) {
   m <- x$getsolve()
